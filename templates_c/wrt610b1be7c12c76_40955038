@@ -1,0 +1,34 @@
+<?php
+/* Smarty version 3.1.39, created on 2021-08-05 00:59:51
+  from 'D:\www\UTN_PHPAvanzado_02_2021\basecomercio\templates\leftPanel.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.39',
+  'unifunc' => 'content_610b1be7c0e005_80127827',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '3e07ec3f510078edbe4d788669c3151c1b21e614' => 
+    array (
+      0 => 'D:\\www\\UTN_PHPAvanzado_02_2021\\basecomercio\\templates\\leftPanel.tpl',
+      1 => 1628117990,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_610b1be7c0e005_80127827 (Smarty_Internal_Template $_smarty_tpl) {
+?>
+<aside  class="border-end" id="leftMenu">
+    <ul>
+        <li>TV</li>
+        <li>Celular</li>
+        <li>Notebooks</li>
+        <li>Toners</li>                        
+        <li><a href="javascript:createChat()">Chat</a></li>
+    </ul>
+</aside><?php }
+}

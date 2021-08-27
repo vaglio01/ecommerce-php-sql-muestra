@@ -1,0 +1,138 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    text-size-adjust:initial;
+}
+
+
+.content{
+    width: 100%;     
+    display: flex;
+    flex-direction:column;    
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    font-family: Verdana,sans-serif;  
+    background-color:white;
+}
+
+#mainMenu {
+    /* padding:0px 0px 0px 0px; */
+    width: 100%;      
+    display: flex;     
+    flex-direction:row;      
+    align-items:right;
+    background-color:#3f72af;
+    
+}
+.menuSep{
+    /* margin: 0px 0px 0px 0px; */
+    /* padding:0px 0px 0px 0px; */
+    width:80vw;
+}
+
+.menuPerfil{
+    /* margin: 0px 0px 0px 0px; */
+    /* padding:0px 0px 0px 0px; */
+    width:15%;
+    display: flex;      
+    flex-direction:row; 
+    display: flex;
+    align-items: center;
+
+}
+
+.mainMenu div {
+    text-align: center;
+    color:gray;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.middlePanel{
+    width: 100%;  
+    display: flex;
+    flex-direction:row; 
+    background-color:white; 
+    flex-wrap:nowrap;   
+    height:90vh;   
+}
+
+#leftMenu{
+    /* margin: 0px 0px 0px 0px; */
+    /* padding:0px 0px 0px 0px; */
+    align-items: center;
+    background-color:#3f72af;
+    height:auto;
+    /* color:gray; */
+    width: 22%;
+}
+
+#leftMenu li{
+    padding-top: 10px;
+    list-style: none;
+}
+
+#leftMenu a{
+    text-decoration: none;
+    color:rgb(165, 151, 151);
+   
+}
+
+#leftMenu p{
+    text-align: center;
+    color:white;
+   margin-top: 10px;
+
+}
+
+#mainPanel{
+    /* align-items: center; */
+    /* background-color:white; */
+    /* height:auto; */
+    color:gray;
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction:column;  */
+}
+.imgIco{
+    width:3em;
+    height:auto;
+}
+
+a{
+    text-decoration:none;
+}
+
+#sub_tit{
+    color:black;
+}
+
+.bbb{
+    display: flex;
+}
+
+.continer_Art{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.arti{
+    background: white;
+    margin-bottom: 1.4em;
+    width: 32%;
+    margin: 1px;
+    border: 1px solid   gray;
+}
+
+.arti h5{
+   font-size: 15px;
+   text-align: center;
+}
+
+.arti span{
+    font-size: 95%;
+    display:block;
+    text-align: center;
+ }
